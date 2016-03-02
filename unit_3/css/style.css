@@ -1,0 +1,42 @@
+body {
+	background-color: #F7F8E0;
+}
+h1{
+	color: #848484;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+}
+p {
+	color: #848484;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#slogan{
+	font-style: italic;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+
+
+li{
+	color: #008080;
+	text-align: center;
+}
+ul{
+	text-align: center;
+	list-style-type: none;
+}
+
+
+
+
+a{
+	text-decoration: none;
+	color:red;
+}
