@@ -1,16 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+
 body {
-	background-color: #F7F8E0;
+	background-color: #001b00;
 }
 h1{
-	color: #848484;
-	font-family: Arial, sans-serif;
+	color: white;
+	font-family: 'Crimson Text', serif;
 	text-align: center;
 	font-weight: bold;
 	text-decoration: underline;
+	margin: 2em;
 }
 p {
-	color: #848484;
-	font-family: Arial, sans-serif;
+	color: white;
+	font-family: 'EB Garamond', serif;
 	text-align: center;
 	font-weight: bold;
 	text-decoration: none;
@@ -25,8 +29,9 @@ p {
 
 
 li{
-	color: #008080;
+	color: white;
 	text-align: center;
+	line-height: 1.5em;
 }
 ul{
 	text-align: center;
@@ -38,5 +43,5 @@ ul{
 
 a{
 	text-decoration: none;
-	color:red;
+	color:white;
 }
