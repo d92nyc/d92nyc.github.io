@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+
+*{margin: 0;
+padding: 0;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;}
+
+
+body {
+	background-color: #001b00;
+}
+
+h1{
+	color: white;
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline
+	font-size: 16px;
+}
+p {
+	color: white;
+	font-family: 'EB Garamond', serif;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+#slogan{
+	font-style: italic;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: center;
+}
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+}
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 3%;
+	width: 100%;
+	float: center;
+	display: inline-block;
+}
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 3%;
+	width: 100%;
+	display: inline-block;
+}
+
+.picture, .description {
+	width: 50%;
+	float: left;
+}
+
+.description {
+	height: 0;
+	padding-bottom: 45.7%;
+}
+
+.picture img{
+	display: block;
+	width: 100%;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1% black solid;
+	padding: 3%;
+	width: 56%;
+	display: inline-block;
+	text-align: center;
+}
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 2px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+#social-properties {
+	background-color: blue;
+	border: 1px black solid;
+	padding: 20%;
+}
+
+#Facebook {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 1%;
+	display: inline-block;
+	width: 33.33%;
+	float: left;
+}
+
+#Instagram {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 1%;
+	display: inline-block;
+	width: 33.33%;
+	float: left;
+}
+
+#Email {
+	background-color: blue;
+	border: 1px black solid;
+	padding: 1%;
+	display: inline-block;
+	width: 33.33%;
+	float: left;
+}
+
+/*div/section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 2px;
+}*/
+
+li{
+	color: white;
+	text-align: center;
+	line-height: 1.5em;
+	width: 50%;
+}
+ul{
+	text-align: center;
+	list-style-type: none;
+	width: 50%;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+@media screen and (max-width: 640px) {
+	.picture, .description {
+		float: none;
+		width: 100%;
+	}
+}
